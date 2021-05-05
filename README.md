@@ -26,10 +26,11 @@ UNPIC is an app which can be used to explore the predictions of an image classif
 - [X]  [Deep Learning Toolbox](https://www.mathworks.com/products/deep-learning.html)
 - [ ]  [Statistics and Machine Learning Toolbox](https://www.mathworks.com/products/statistics.html) (only required for t-SNE)
 - [ ]  [Parallel Computing Toolbox](https://www.mathworks.com/products/parallel-computing.html) (only required for training using a GPU)
+- [ ]  [Deep Learning Toolbox™ Model for GoogLeNet Network support package](https://www.mathworks.com/help/deeplearning/ref/googlenet.html) (only required for training a new network)
 
 
 ## Quick Start
-Download or clone the repository and then run the script `startUNPIC.mlx` to open the app with a trained image classification network.
+Download or clone the repository and then run the script `startUNPIC.mlx` to open the app with a trained image classification network. This network has been trained using transfer learning with the GoogLeNet pretrained network.
 
 ## Open App
 UNPIC is an app for interactively comparing different deep learning visualization techniques. The easiest way to get started with UNPIC is to download the repository and then open and run a live script example.  
@@ -100,5 +101,7 @@ Use t-SNE to visualize the network activations and gain an understanding of how 
 [4] DeepDreaming with TensorFlow. https://github.com/tensorflow/docs/blob/master/site/en/tutorials/generative/deepdream.ipynb   
 
 [5] van der Maaten, Laurens, and Geoffrey Hinton. "Visualizing Data using t-SNE." Journal of Machine Learning Research 9, 2008, pp. 2579–2605.   
+
+[6] BVLC GoogLeNet Model. https://github.com/BVLC/caffe/tree/master/models/bvlc_googlenet
 
 *Copyright 2020 The MathWorks, Inc.*
